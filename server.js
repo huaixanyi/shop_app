@@ -10,5 +10,5 @@ const server = http.createServer((req, res) => {
 // 监听端口
 const PORT = 3000;
 server.listen(PORT, () => {
-  console.log(`Server running at http://localhost:${PORT}/`);
+  console.log(`Server running at http://jazzy-cassata-bdf5f8.netlify.app:${PORT}/`);
 });
