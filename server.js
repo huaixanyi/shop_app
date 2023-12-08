@@ -8,7 +8,7 @@ const server = http.createServer((req, res) => {
 });
 
 // 监听端口
-const PORT = 443;
+const PORT = 80;
 server.listen(PORT, () => {
-  console.log(`Server running at http://jazzy-cassata-bdf5f8.netlify.app:${PORT}/`);
+  console.log(`Server running at http://huaxianyi.com:${PORT}/`);
 });
