@@ -8,7 +8,7 @@ const server = http.createServer((req, res) => {
 });
 
 // 监听端口
-const PORT = 80;
+const PORT = 3000;
 server.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}/`);
 });
